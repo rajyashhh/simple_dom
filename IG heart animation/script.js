@@ -6,7 +6,6 @@ cont.addEventListener("dblclick",function(){
     ctr = ctr + 1;
     console.log("heart added")
     if(ctr == 1){
-        console.log("controller reached here")
         setTimeout(removeHeart,1100);
     }
     function removeHeart(){
