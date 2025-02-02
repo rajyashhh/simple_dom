@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightseagreen;
+}
+#container{
+    height: 500px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: red;
+    overflow: hidden;
+}
+#container img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#container i{
+    font-size: 70px;
+    position: absolute;
+    left: 50%;
+    /* color: white; */
+    top: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0.8;
+    transition: all ease 0.4s;
+    background: linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7); /* Define the gradient */
+    -webkit-background-clip: text; /* Clip background to text */
+    -webkit-text-fill-color: transparent; /* Make text transparent */
+    font-size: 40px; /* Adjust size */
+    font-weight: bold;
+}
